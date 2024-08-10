@@ -1,0 +1,45 @@
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #008000; /* Verde */
+    color: white; /* Texto branco */
+    padding: 10px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilos para o corpo */
+body {
+    background-color: #ccffcc; /* Verde claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o campo de texto */
+.text-area {
+    margin: 20px;
+    padding: 10px;
+    width: calc(100% - 40px); /* Considera as margens */
+    height: 150px;
+    border: 1px solid #008000; /* Borda verde */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para a imagem */
+.image-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.image-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
